@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+}
+
+body {
+  background: url("../public/Assets/background.jpeg");
+  background-size: 100%;
+  background-position:top;
+  background: cover;
+  margin: 0;
+
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+.Navbar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.header {
+  background-color: aqua;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+h1 {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding-right: 100px;
+
+}
+
+.search {
+  background-color: white;
+  border: 2px solid red;
+  border-radius: 50px;
+  color: black;
+  font-family: inherit;
+  font-size: 1.2rem;
+  padding: 0.5rem 1.5rem;
+  margin-left: 60px;
+  outline: none;
+}
+
+.basket {
+  width: 50px;
+  height: 50px;
+  padding-right: 60px;
+
+}
+// .section {
+//   width: 100%;
+//   height: calc(100vh - 70px);
+//   background-color: lightpink;
+//   position: relative;
+//   top: 70px;
+//   scroll-behavior: smooth;
+//   scroll-snap-type: y mandatory;
+//   scrollbar-width: none; 
+//   &::-webkit-scrollbar{
+//       display: none;
+//   }
+
+//   > *{
+//       width: 100vw;
+//       height: calc(100vh - 70px);
+//       scroll-snap-align: start;
+//   }
+
+.search-results-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  color: white;
+
+}
+
+.search-list {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.genre-button-container {
+  color: white;
+
+}
+
+.genre-container {
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie-container {
+
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+
+}
+
+.filter-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  border-radius: 10px;
+  border-color: white;
+}
+
+.filter-button {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie-container-sort {
+
+  display: flex;
+  flex-wrap: wrap;
+  background-color: none;
+  height: 100%;
+  background-color: pink;
+
+}
+
+
+.sort-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: none;
+
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.filter-text {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.movie-container ul {
+  display: flex;
+  flex-wrap: wrap;
+
+  
+}
+
+.movie {
+  
+  background-color: rgb(205, 63, 63);
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px black ;
+  overflow: hidden;
+  position: relative;
+  width:200px;
+  height: 350px;
+  margin: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.movie img {
+  width: 200px;
+  height: 310px;  
+}
+
+.movie-info {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+h2 {
+
+  display: flex;
+  align-items: center;
+  justify-content: center; margin: 0.5rem;
+  font-size: 16px;
+  color: whitesmoke;
+  font-style:normal;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3 {
+  margin: 0;
+  font-size: 18px;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+ 
+}
+
+.h4 {
+  font-size: 4px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.movie-over {
+  background-color: black;
+  opacity: 0.8;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: auto;
+  max-height: 100%;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.movie:hover .movie-over {
+  transform: translateY(0%);
+}
+
+#brand-input {
+  
+    margin-left: 20px;
+    padding: 5px;
+    list-style-type:none;
+    display:inline-block;
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    
+}
+
+.brand-input {
+  
+  margin-left: 20px;
+  padding: 5px;
+  list-style-type:none;
+  display:inline-block;
+  background-color: red;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  background-color: gold;
+
+}
+
+
